@@ -5,11 +5,19 @@ description: "Start building digital employees in under 5 minutes"
 
 ## Quick Knowledge
 
-A workflow is sequence of nodes, where at every node, some work is done. You can pass information from one node to the next by connecting them.
+A workflow is a series of steps where each step (or node) does a specific task. You can share information from one step to the next by linking them together.
 
-**Agent node:** The agent node is an AI model that can complete a piece of work. It requires a role, context and input. The 'role' is a job title that you want the agent to have. The 'context' is the background knowledge you would like the agent to have in its memory. Lastly, the 'input' is the prompt to the agent and is usually dynamically given by the previous node.
+### Agent node
 
-**Action node:** The action node is an automated action with no AI used. It is predicatble and predetermined. For example, the 'Excel - Detect Changes' action node will looky the connected excel file and output the changes in the same structured format every time.
+The agent node is an AI tool that performs a task. It needs three things:
+- **Role:** The job or title you want the agent to have.
+- **Context:** The background information you want the agent to know.
+- **Input:** The instructions or prompt given to the agent, usually provided by the previous node.
+
+### Action node
+
+The action node performs a set task automatically without using AI. It always behaves the same way. For example, the **'Excel - Detect Changes'** action node will check the connected Excel file and list any changes in the same format every time.
+
 
 ### Edit and preview
 
