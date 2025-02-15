@@ -9,18 +9,17 @@ A **workflow** is a series of steps where each step (or node) does a specific ta
 
 ### Agent node
 
-The agent node is an AI tool that performs a task. It needs three things:
+The agent node is an AI tool that performs a task. It needs three things and an optional fourth thing:
+
 - **Role:** The job or title you want the agent to have.
 - **Context:** The background information you want the agent to know.
 - **Input:** The instructions or prompt given to the agent, usually provided by the previous node.
-- **Tool:** A resource that gives the agent extra abilities, such as sending an email or creating a Google document. Based on the task, the agent will decide whether to use the tool or not.
+- **Optional Tool:** A resource that gives the agent extra abilities, such as sending an email or creating a Google document. Based on the task, the agent will decide whether to use the tool or not.
 
 ### Action node
 
 The action node performs a set task automatically without using AI. It always behaves the same way. For example, the **'Excel - Detect Changes'** action node will check the connected Excel file and list any changes in the same format every time.
 
-
 ### Trigger node
 
 A trigger node sets a condition to run a workflow when that condition is met. For example, the **Gmail Watch** trigger node monitors your email inbox. When a new email arrives, it automatically starts the workflow. The content of the email is then passed along as the output of the trigger node.
-

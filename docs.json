@@ -18,19 +18,16 @@
             "pages": ["quickstart"]
           },
           {
-            "group": "Get Started",
-            "pages": [
-              "getting-started",
-              "building-a-workflow",
-              "advanced-features",
-              "troubleshooting-guide",
-              "use-cases-and-examples",
-              "tips-and-tricks"
-            ]
+            "group": "Triggers",
+            "pages": ["gmail-watch", "scheduled"]
           },
           {
-            "group": "Templates",
-            "pages": ["common-workflow-templates"]
+            "group": "Agent Nodes",
+            "pages": ["agent-node"]
+          },
+          {
+            "group": "Action Nodes",
+            "pages": ["excel-detectchanges"]
           }
         ]
       },
